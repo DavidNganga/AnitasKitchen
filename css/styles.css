@@ -3,9 +3,49 @@
   height: 600px;
   width:100vw;
 
+}
+.logo{
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 10%; left: 10%;
+}
+.text{
+  text-align: center;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
 
+.bar1, .bar2, .bar3 {
+
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
 
 }
-p{
-text-align: center;
+
+
+.jumbotron {
+  column-count: 4;
+  column-gap: 70px;
+  column-rule-style: hidden;
+  column-rule-width: 5px;
+  column-fill: balance;
+  max-height: 300px;
+
+}
+
+
+h2{
+  text-align: center;
+}
+.fF1{
+  float:left;
+}
+.fastfood{
+  float: left;
 }
