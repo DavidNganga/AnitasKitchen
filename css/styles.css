@@ -11,7 +11,7 @@
   display: block;
   margin: auto;
   position: relative;
-  top: 10%; left: 10%;
+  top: 10%; left:-28%;
 }
 .text{
   text-align: center;
@@ -42,7 +42,6 @@
 
 }
 
-
 h3{
   text-align: center;
 }
@@ -52,7 +51,6 @@ h3{
 .fastfoodtwo{
   float: left;
 }
-
 
 #lorem{
   text-align: center;
@@ -64,7 +62,18 @@ h3{
   font-size: 20;
   height: inherit;
 }
-.test-box {
-    border: 2px solid red;
-  }
+
+
+.drinks{
+  float: right;
+}
+.drinkpic1{
+  float: right;
+}
+.Sidebar {
+  width: 50%;
+  float: left;
+  position: relative;
+  font-size: 20;
+  height: inherit;
 }
