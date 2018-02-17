@@ -28,7 +28,7 @@
     background-color: white;
     margin: 6px 0;
     transition: 0.4s;
-
+    position: top;left;
 }
 
 
@@ -39,6 +39,7 @@
   column-rule-width: 5px;
   column-fill: balance;
   max-height: 300px;
+
 }
 
 
@@ -86,8 +87,12 @@ h3{
   column-count: 2;
   text-align: center;
   float: right;
-column-rule-style: inset;
-column-rule-width: thin;
-column-rule-color: grey;
+
 
 }
+.Header{
+  background-image: url(../img/backgrounds/subscribe.jpg);
+  height: 300px;
+  width:1270px;
+  border-color: black;
+  white-space: normal;
