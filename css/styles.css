@@ -2,8 +2,11 @@
   background-image: url(../img/backgrounds/landing.jpg);
   height: 600px;
   width:100vw;
+  border-color: black;
+  white-space: normal;
 
 }
+
 .logo{
   display: block;
   margin: auto;
@@ -40,12 +43,28 @@
 }
 
 
-h2{
+h3{
   text-align: center;
-}
-.fF1{
-  float:left;
 }
 .fastfood{
   float: left;
+}
+.fastfoodtwo{
+  float: left;
+}
+
+
+#lorem{
+  text-align: center;
+}
+.sidebar {
+  width: 50%;
+  float: right;
+  position: relative;
+  font-size: 20;
+  height: inherit;
+}
+.test-box {
+    border: 2px solid red;
+  }
 }
