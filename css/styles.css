@@ -11,7 +11,7 @@
   display: block;
   margin: auto;
   position: relative;
-  top: 10%; left:-28%;
+  top: 10%; left: 10%;
 }
 .text{
   text-align: center;
@@ -39,8 +39,8 @@
   column-rule-width: 5px;
   column-fill: balance;
   max-height: 300px;
-
 }
+
 
 h3{
   text-align: center;
@@ -70,10 +70,24 @@ h3{
 .drinkpic1{
   float: right;
 }
+
 .Sidebar {
   width: 50%;
   float: left;
   position: relative;
   font-size: 20;
   height: inherit;
+}
+.jumbotron{
+  column-rule-style: solid;
+  column-rule-width: thin;
+}
+#customers{
+  column-count: 2;
+  text-align: center;
+  float: right;
+column-rule-style: inset;
+column-rule-width: thin;
+column-rule-color: grey;
+
 }
