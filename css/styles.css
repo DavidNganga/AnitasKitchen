@@ -3,7 +3,6 @@
   height: 600px;
   width:100vw;
   border-color: black;
-  white-space: normal;
 
 }
 
@@ -60,13 +59,14 @@ h3{
   width: 50%;
   float: right;
   position: relative;
-  font-size: 20;
+  font-size: 15;
   height: inherit;
 }
 
 
 .drinks{
   float: right;
+  font-size: 14;
 }
 .drinkpic1{
   float: right;
@@ -86,13 +86,5 @@ h3{
 #customers{
   column-count: 2;
   text-align: center;
-  float: right;
-
 
 }
-.Header{
-  background-image: url(../img/backgrounds/subscribe.jpg);
-  height: 300px;
-  width:1270px;
-  border-color: black;
-  white-space: normal;
