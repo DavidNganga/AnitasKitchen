@@ -1,6 +1,6 @@
 .header{
   background-image: url(../img/backgrounds/landing.jpg);
-  height: 600px;
+  height: 400px;
   width:100vw;
   border-color: black;
 
@@ -10,7 +10,7 @@
   display: block;
   margin: auto;
   position: relative;
-  top: 10%; left: 10%;
+  top: 100%; left: 190%;
 }
 .text{
   text-align: center;
@@ -31,13 +31,13 @@
 }
 
 
-.jumbotron {
+.jumbotron{
   column-count: 4;
-  column-gap: 70px;
+  column-gap: 80px;
   column-rule-style: hidden;
-  column-rule-width: 5px;
+  column-rule-width: 10px;
   column-fill: balance;
-  max-height: 300px;
+  max-height: 400px;
 
 }
 
@@ -59,7 +59,7 @@ h3{
   width: 50%;
   float: right;
   position: relative;
-  font-size: 15;
+  font-size: 20;
   height: inherit;
 }
 
@@ -87,4 +87,7 @@ h3{
   column-count: 2;
   text-align: center;
 
+}
+p{
+  font-size: 12;
 }
