@@ -38,6 +38,7 @@
   column-rule-width: 10px;
   column-fill: balance;
   max-height: 400px;
+  white-space: pre-wrap;
 
 }
 
@@ -47,6 +48,7 @@ h3{
 }
 .fastfood{
   float: left;
+  position: static;
 }
 .fastfoodtwo{
   float: left;
@@ -78,16 +80,27 @@ h3{
   position: relative;
   font-size: 20;
   height: inherit;
+
 }
 .jumbotron{
   column-rule-style: solid;
   column-rule-width: thin;
+  white-space: pre-line;
 }
 #customers{
   column-count: 2;
   text-align: center;
+  font-style: normal;
 
 }
-p{
+h4{
   font-size: 12;
+  font-style: normal;
+}
+.imgA1{
+  position: relative;
+  z-index: 1;
+}
+.imgA2{
+  z-index:3;
 }
