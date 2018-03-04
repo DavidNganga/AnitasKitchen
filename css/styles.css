@@ -1,65 +1,74 @@
-.header{
+.header {
   background-image: url(../img/backgrounds/landing.jpg);
   height: 400px;
-  width:100vw;
+  width: 100vw;
   border-color: black;
-
+  padding-left: 11%;
 }
 
-.logo{
+.logo {
   display: block;
   margin: auto;
   position: relative;
-  top: 100%; left: 190%;
+  top: 100%;
+  left: 10%;
 }
-.text{
+
+.text {
   text-align: center;
 }
+
 .container {
-    display: inline-block;
-    cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .bar1, .bar2, .bar3 {
-
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
-    position: top;left;
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+  position: top;
+  left;
 }
 
-
-.jumbotron{
+.flexcontainer {
   column-count: 4;
-  column-gap: 80px;
-  column-rule-style: hidden;
-  column-rule-width: 10px;
-  column-fill: balance;
-  max-height: 400px;
-<<<<<<< HEAD
-  white-space: pre-wrap;
-=======
->>>>>>> 7b2bc47cb0d195acaac21c1c226f05f67041f4e4
-
+  padding-bottom: 5%;
+  padding-left: 25%;
+  display: flex;
+  flex-flow: row;
 }
 
-
-h3{
+h3 {
   text-align: center;
 }
-.fastfood{
-  float: left;
-  position: static;
+
+.centre {
+  position: absolute;
+  ;
+  left: 0%;
+  top: 50%;
+  width: 100%;
 }
+
+/* .fastfood{
+  float: left;
+  position: inherit;
+  box-shadow: 0 0 4px 4px #ccc;
+padding-left: 20%;
+}
+
 .fastfoodtwo{
   float: left;
-}
+padding-left: 20%;
+} */
 
-#lorem{
+#lorem {
   text-align: center;
 }
+
 .sidebar {
   width: 50%;
   float: right;
@@ -68,12 +77,12 @@ h3{
   height: inherit;
 }
 
-
-.drinks{
+.drinks {
   float: right;
   font-size: 14;
 }
-.drinkpic1{
+
+.drinkpic1 {
   float: right;
 }
 
@@ -83,32 +92,192 @@ h3{
   position: relative;
   font-size: 20;
   height: inherit;
-
 }
-.jumbotron{
+
+.jumbotron {
   column-rule-style: solid;
   column-rule-width: thin;
   white-space: pre-line;
 }
-#customers{
+
+#customers {
   column-count: 2;
   text-align: center;
   font-style: normal;
-
 }
-<<<<<<< HEAD
-h4{
+
+h4 {
   font-size: 12;
   font-style: normal;
 }
-.imgA1{
+
+.imgA1 {
   position: relative;
   z-index: 1;
 }
-.imgA2{
-  z-index:3;
-=======
-p{
-  font-size: 12;
->>>>>>> 7b2bc47cb0d195acaac21c1c226f05f67041f4e4
-}
+
+.imgA2 {
+  z-index: 3;
+  p {
+    font-size: 8;
+  }
+  .flexcontainer {
+    display: flex;
+    flex-direction: ltr;
+  }
+  .tomato {
+    height: 200px;
+    padding-left: 75%;
+  }
+  .footer {
+    background-color: #F15A29;
+    text-align: center;
+    padding-top: 5%;
+    color: orange;
+  }
+  #copyright {
+    font-size: 50px;
+  }
+  #slogan {
+    font-size: 20px
+  }
+  .email {
+    text-align: center;
+    background-image: url("../img/backgrounds/subscribe.jpg");
+    color: white;
+    padding-bottom: 7%;
+    padding-top: 7%;
+  }
+  .email p {
+    font-size: 30px;
+  }
+  .foods {
+    background-image: url("../img/backgrounds/foodsBg.jpg");
+    color: white;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 10%;
+  }
+  h4 {
+    color: #F15A29;
+    text-transform: capitalize;
+  }
+  .#email-input {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+  }
+  .button2 {
+    background-color: #F15A29;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-color: #F15A29;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 1px;
+  }
+  #party {
+    background-color: #F15A29;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    padding-right: 20px;
+  }
+  #happy {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 24px;
+    padding-top: 20px;
+  }
+  #fastfood {
+    text-align: left;
+    margin: 25px;
+    padding: 50px;
+  }
+  #drinks {
+    text-align: right;
+    margin: 25px;
+    padding: 50px;
+  }
+  .button3 {
+    background-color: white;
+    color: #F15A29;
+    border: 2px solid #F15A29;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+  }
+  .box1 {
+    border: 1px solid #333;
+    height: 392px;
+    width: 492px;
+  }
+  .box2 {
+    border: 1px solid #333;
+    height: 392px;
+    width: 496px;
+  }
+  .box3 {
+    background-color: white;
+    color: #F15A29;
+    border: 1px;
+    width: 1000px;
+    height: 400px;
+    font-weight: bold;
+    padding-left: 3%;
+    padding-top: 5%
+  }
+  .box4 {
+    background-color: white;
+    border: 1px solid #333;
+    width: 1000px;
+    height: 200px;
+    margin: 100px;
+    margin-left: 50px;
+  }
+  .border-right {
+    border-right: 1px solid #333;
+  }
+  .customers {
+    text-align: center;
+  }
+  .menu {
+    text-align: center;
+  }
+  #open-menu, #close-menu {
+    position: absolute;
+    font-size: 300%;
+    color: white;
+  }
+  #open-menu {
+    left: 5%;
+  }
+  #close-menu {
+    left: 80%;
+  }
+  aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: #F15A29;
+    z-index: 100;
+    left: -100%;
+    top: 0;
+  }
+  #the-menu {
+    list-style: none;
+  }
+  #the-menu a {
+    color: white;
+  }
+  #the-menu li {
+    text-transform: uppercase;
+    font-size: 100%;
+  }
